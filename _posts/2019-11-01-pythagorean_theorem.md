@@ -7,7 +7,7 @@ tags: [Python, Pythagorean Theorem, mathematics, tricks]
 
 How to calculate 'c'
 
-This is one of the most remembered theorems:
+This is one of the most remembered theorems:  
 	a^2^ + b^2^ = c^2^
 
 Here is uncommon and dirty solution for c:
