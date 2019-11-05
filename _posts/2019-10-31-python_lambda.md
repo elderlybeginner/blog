@@ -32,8 +32,8 @@ Looks like it works in my head.
 
 ```python
 >>> import math
->>> sin_lambda = lambda x: math.sin(x*PI/180)
 >>> PI = math.pi
+>>> sin_lambda = lambda x: math.sin(x*PI/180)
 >>> cos_lambda = lambda y: math.cos(y*PI/180)
 >>> type(sin_lambda)
 <class 'function'>
