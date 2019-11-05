@@ -20,6 +20,6 @@ Just a moment ago I used:
 
 These are Vim commands. When I'm done with this paragraph I will go with
 
-~~~Bash / cli
+```Bash / cli
 'aspell -c *tools*'
-~~~
+```
