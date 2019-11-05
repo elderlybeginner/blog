@@ -10,11 +10,11 @@ How to calculate 'c'
 This is one of the most remembered theorems:  
 	a^2^ + b^2^ = c^2^
 
-Here is uncommon and dirty solution for c:
+Here is uncommon and a dirty solution for c:
 
 ```python
 c = abs(complex(a, b))
-```python
+```
 
 You can also go directly with:
 
