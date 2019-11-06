@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Beginner's view on functional programming in Python
-date: 2019-10-30
+date: 2019-11-02
 tags: [Python, functional, functional programming]
 ---
 
@@ -42,7 +42,7 @@ And there are also nested comprehensive lists. Go check yourself.
 
 2. *Recursive function* are clean, powerful and can be tricky
 
-Most common examples are calculating factorial (n!) or Fibonacci numbers. You can find it easily.
+Most common examples are calculating factorial (n!) or Fibonacci numbers. You can find it easily.  
 As a beginner I crashed system a few times as these recursion went out of control.
 
 3. *Lambda Expressions* are useful, elegant.
