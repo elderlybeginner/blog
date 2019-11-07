@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cp and Cpk for Target Shooters
-date: 2019-11-06
+date: 2019-11-07
 tags: [Python, shooting, sport shooting, Cp, Cpk, process capability index, precision, accuracy, measuring]
 ---
 
@@ -9,12 +9,12 @@ When shooting to target there are two main indicators how good is your shooting:
 
 1. Precision - the ability to hit the same place over and over. This gives you shot dispersion which I am going to measure with	 Cp index
 
-![high precision](highprecision.png)
+![high precision](./img/highprecision.png)
 Source: public domain
 
 2. Accuracy - is the proximity of results to the center point. I am going to measure it with Cpk index
 
-![high accuracy](highaccuracy.png)
+![high accuracy](./img/highaccuracy.png)
 Source: public domain
 
 ### The Project
