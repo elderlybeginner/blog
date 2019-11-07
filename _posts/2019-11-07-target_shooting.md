@@ -9,12 +9,12 @@ When shooting to target there are two main indicators how good is your shooting:
 
 1. Precision - the ability to hit the same place over and over. This gives you shot dispersion which I am going to measure with	 Cp index
 
-![high precision](/asets/img/highprecision.png)
+![high precision](/assets/img/highprecision.png)
 Source: public domain
 
 2. Accuracy - is the proximity of results to the center point. I am going to measure it with Cpk index
 
-![high accuracy](/asets/img/highaccuracy.png)
+![high accuracy](/assets/img/highaccuracy.png)
 Source: public domain
 
 ### The Project
