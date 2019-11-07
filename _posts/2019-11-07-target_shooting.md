@@ -31,12 +31,14 @@ TODO
 Measurement is to be set as the distance from the center to default place.  
 Then we calculate holes position as a table of tables: 
 
+```python
 h1 = [x, y], h2 = [x, y], ... hn = [x,y]  
 h2 = ...  
 ...    
 hn = ...  
 
 holes = [h1, h2, ..., hn]
+```
 
 and centroid is calculated:
 
