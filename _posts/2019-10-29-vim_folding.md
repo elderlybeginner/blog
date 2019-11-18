@@ -5,10 +5,10 @@ date: 2019-10-29
 tags: [vim, markdown, md, folding]
 ---
 
-90% of my "pure typing" goes in markdown (thanks to: Gruber and Swartz).  
+90% of my "pure typing" goes in markdown (thanks to Gruber and Swartz).  
 90% of my "pure typing" goes in Vim (credits to all the crew).  
-Thus as the folding idea is brilliant I was fighting to get simple folding in Vim + markdown based on # headers. I felt lack of it, but I was too impatient to implement it or look for it.  
-Then on Stack I found what you see below and It made me happy.  
+Thus as the folding idea is brilliant I was fighting to get simple folding in Vim + markdown based on # headers. I felt a lack of it, but I was too impatient to implement it or look for it.  
+Then on Stack, I found what you see below and It made me happy.  
 Not perfect, but good enough and works beautifully.
 
 ```Vim
