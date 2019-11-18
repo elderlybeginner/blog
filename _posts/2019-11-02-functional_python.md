@@ -42,8 +42,8 @@ And there are also nested comprehensive lists. Go check yourself.
 
 2. *Recursive function* are clean, powerful and can be tricky
 
-Most common examples are calculating factorial (n!) or Fibonacci numbers. You can find it easily.  
-As a beginner I crashed system a few times as these recursion went out of control.
+The most common examples are calculating factorial (n!) or Fibonacci numbers. You can find it easily.  
+As a beginner, I crashed the system a few times as these recursions went out of control.
 
 3. *Lambda Expressions* are useful, elegant.
 
@@ -51,11 +51,11 @@ Official Tutorial says it should be used when it helps with clarity. There is no
 
 I had difficulties to understand lambda expressions. That helped me:
 
-- you create lambda function by assigning it to variable (variable is the function),
+- you create lambda function by assigning it to a variable (variable is the function),
 - after *lambda* word is your input (x),
 - after *:* is the output you want to get (your y in mathematics),
-- you call you lambda with variable name and your input,
-- in return you will get your output.
+- you call you lambda with the variable name and your input,
+- in return, you will get your output.
 
 ```python
 hyper = lambda x: 1/x
@@ -71,4 +71,4 @@ hyper = lambda x: 1/x
 
 4. Magic *map()*, *filter()*, *reduce()* which are cumbersome.
 
-Actually I don't understand them and I believe code looks more elegant with comprehensive lists or regular defs. As a beginner I consider this functions to be used by medium level programmers to show off. 
+Actually I don't understand them and I believe code looks more elegant with comprehensive lists or regular defs. As a beginner I consider these functions to be used by medium-level programmers to show off. 
