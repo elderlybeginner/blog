@@ -32,7 +32,11 @@ This example was based on "Python Tricks" by Dan Bader (3.1 Python's Functions A
 [^python]: in Python
 [^java]: Programming with objects is something different than treating something as an object. Here you have e.g. Java OOP (which is a beauty... not):
 	
-	```java
+----
+
+Footnote:
+
+```java
 public class HelloWorld {
 
     public static void main(String[] args) {
@@ -40,5 +44,5 @@ public class HelloWorld {
     }
 
 }
-	```
+```
 
