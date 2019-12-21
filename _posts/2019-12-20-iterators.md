@@ -63,7 +63,7 @@ gesqed = list(x * x for x in data)
 geneged = list(-x for x in gesqed)
 ```
 
-It was mind exercise for me inspired by Dan Bader book [Python Tricks - 6.7 Iterator Chains](https://realpython.com/products/python-tricks-book/).
+It was mind exercise for me inspired by Dan Bader book [Python Tricks](https://realpython.com/products/python-tricks-book/) - 6.7 Iterator Chains.
 
 There was one more solution that came to my mind and I quickly typed a note to myself:
 ```python
