@@ -128,6 +128,18 @@ table tr td :last-child {
 	margin-bottom: 0;
 }
 
+// sub/sup added for H~2~O and 2^2^ (ks 20200103)
+
+sub {
+    vertical-align: sub!important;
+    font-size: smaller!important;
+}
+
+sup {
+    vertical-align: super!important;
+    font-size: smaller!important;
+}
+
 /*.detailed .entry p:first-of-type:first-letter {
     float: left;
     margin: 0.13em 0.05em 0 -0.05em;
