@@ -217,4 +217,4 @@ The result is:
 
 Some more testing, observations and conclusions will follow in the next post.
 
-[^1]: (https://en.wikipedia.org/wiki/Timsort)
+[^1]: [Timsort](https://en.wikipedia.org/wiki/Timsort)
