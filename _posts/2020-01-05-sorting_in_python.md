@@ -116,7 +116,7 @@ print("Original array:", arr)
 ## sorted() built-in function/statement (Timsort)
 
 Citing Wikipedia's entry:  
-> Timsort is a hybrid stable sorting algorithm, derived from merge sort and insertion sort, designed to perform well on many kinds of real-world data. [^](https://en.wikipedia.org/wiki/Timsort)
+> Timsort is a hybrid stable sorting algorithm, derived from merge sort and insertion sort, designed to perform well on many kinds of real-world data. [^1 (https://en.wikipedia.org/wiki/Timsort)]
 
 Works the best, it's built-in... but it gives no fun of playing with sorting ;)
 
@@ -209,10 +209,10 @@ The result is:
 
 > ./sort.py 
 > 
-> Selection sorting of 800 elements 50 times took 0.836 seconds
-> Selection (loop) sorting of 800 elements 50 times took 0.456 seconds
-> Selection (loop2) sorting of 800 elements 50 times took 1.072 seconds
-> Quick sorting of 800 elements 50 times took 0.110 seconds
-> sorted() sorting of 800 elements 50 times took 0.005 seconds
+> Selection sorting of 800 elements 50 times took 0.836 seconds  
+> Selection (loop) sorting of 800 elements 50 times took 0.456 seconds  
+> Selection (loop2) sorting of 800 elements 50 times took 1.072 seconds  
+> Quick sorting of 800 elements 50 times took 0.110 seconds  
+> sorted() sorting of 800 elements 50 times took 0.005 seconds  
 
 Some more testing, observations and conclusions will follow in the next post.
