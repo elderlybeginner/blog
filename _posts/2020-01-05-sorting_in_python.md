@@ -116,7 +116,7 @@ print("Original array:", arr)
 ## sorted() built-in function/statement (Timsort)
 
 Citing Wikipedia's entry:  
-> Timsort is a hybrid stable sorting algorithm, derived from merge sort and insertion sort, designed to perform well on many kinds of real-world data. [^1 (https://en.wikipedia.org/wiki/Timsort)]
+> Timsort is a hybrid stable sorting algorithm, derived from merge sort and insertion sort, designed to perform well on many kinds of real-world data. [^1]
 
 Works the best, it's built-in... but it gives no fun of playing with sorting ;)
 
@@ -216,3 +216,5 @@ The result is:
 > sorted() sorting of 800 elements 50 times took 0.005 seconds  
 
 Some more testing, observations and conclusions will follow in the next post.
+
+[^1]: (https://en.wikipedia.org/wiki/Timsort)
