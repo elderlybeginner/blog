@@ -14,9 +14,6 @@ The idea is to choose the smallest element and put it in front. One way is to sw
 Here is an example of the second way.
 
 ```python
-#!/usr/bin/env python
-
-
 def ssort(array):
 	arr = array[:]
 	new_arr = []
@@ -36,9 +33,6 @@ print("Original array:", arr)
 I found another interesting solution on the internet. I don't like it, it's slower (well, selection sort is slow in general, so does it matter?) and language-specific.
 
 ```python
-#!/usr/bin/env python
-
-
 def ssort(arr):
 	array = arr[:]
 	for i, e in enumerate(array):
@@ -59,9 +53,6 @@ In general, recursion is slower than "looping". It's harder to debug. It's harde
 On the other side, sometimes it's neat and elegant. You can see it below and you will see it in all its glory in quick sort recursive example. But first, let's go with the selection sort (recursive) solution.
 
 ```python
-#!/usr/bin/env python
-
-
 def ssort(arr):
 	if len(arr) < 2:
 		return arr
@@ -95,9 +86,6 @@ In its basics quick sort takes the first element of an array/list (pivot element
 To avoid *worst case scenario* such as a perfectly sorted array/list pivot element can be chosen randomly or the hole array/list can be mixed prior to sorting (not implemented in the code as it's needles for the example).
 
 ```python
-#!/usr/bin/env python
-
-
 def qsort(arr):
 	if len(arr) < 2:
 		return arr
@@ -125,8 +113,6 @@ Works the best, it's built-in... but it gives no fun of playing with sorting ;)
 Let's create random input data for sorting:
 
 ```python
-#!/usr/bin/env python3
-
 import random
 
 arr = [random.randint(0, 999) for x in range(1000)]
