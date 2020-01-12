@@ -5,7 +5,7 @@ date: 2020-01-05
 tags: [Python, sorting, quick sort, selection sort, algorithms, recursion]
 ---
 
-This is a follow up of the [first part](./sorting_with_python/). It's time to have some fun.
+This is a follow up of the [first part](./sorting_in_python/). It's time to have some fun.
 
 Let's do some tests in regards to the time that sorting takes for sorting n elements. From the results, I will try to confirm Big O times for a specific sorting.
 
@@ -116,7 +116,7 @@ Let's make one more test for quick sort and sorted():
 
 2. RAM using is going up with periodical jumps down as some memory is freed when some calculating line is cut off
 
-3. When accidentally quick sorted an array/list with sorted elements quick sort gave longer times then selective sort. This is a confirmation of O(n^2^) theoretical sorting time for the worst-case scenario. How to dodge it is explained in [part one](../sorting_with_python/). The other issue is what to do if all elements are the same.
+3. When accidentally quick sorted an array/list with sorted elements quick sort gave longer times then selective sort. This is a confirmation of O(n^2^) theoretical sorting time for the worst-case scenario. How to dodge it is explained in [part one](./sorting_in_python/). The other issue is what to do if all elements are the same.
 
 4. Quicksort also slowers when there are less unique values
 
