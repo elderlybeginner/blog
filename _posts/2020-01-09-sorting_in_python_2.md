@@ -119,7 +119,7 @@ Time in seconds for 1 repetitions.
 
 2. RAM using is going up with periodical jumps down as some memory is freed when some calculating line is cut off
 
-3. When accidentally quick sorted an array/list with sorted elements quick sort gave longer times then selective sort. This is a confirmation of O(n^2^) theoretical sorting time for the worst-case scenario. How to dodge it is explained in [part one](./sorting_in_python/). The other issue is what to do if all elements are the same.
+3. When accidentally quick sorted an array/list with sorted elements quick sort gave longer times then selective sort. This is a confirmation of O(n^2^) theoretical sorting time for the worst-case scenario. How to dodge it is explained in [part one](../sorting_in_python/). The other issue is what to do if all elements are the same.
 
 4. Quicksort also slowers when there are less unique values
 
