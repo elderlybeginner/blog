@@ -201,6 +201,6 @@ The result is:
 > Quick sorting of 800 elements 50 times took 0.110 seconds  
 > sorted() sorting of 800 elements 50 times took 0.005 seconds  
 
-Some more testing, observations and conclusions will follow in the [next post](./sorting_in_python_2).
+Some more testing, observations and conclusions will follow in the [next post](../sorting_in_python_2/).
 
 [^1]: [Timsort](https://en.wikipedia.org/wiki/Timsort)
