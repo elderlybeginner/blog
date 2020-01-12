@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sorting in Python (quick sort and selection sort) part 2 
-date: 2020-01-05
+date: 2020-01-11
 tags: [Python, sorting, quick sort, selection sort, algorithms, recursion]
 ---
 
