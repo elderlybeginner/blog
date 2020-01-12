@@ -88,30 +88,31 @@ Time in seconds for 100 repetitions.
 
 Let's make one more test for quick sort and sorted():
 
-> Time in seconds for 1 repetitions.
-> --------------------------------------------------
->  amount   selecR   selec1   selec2   quickR   sorted
->  1000000      inf      inf      inf     7.01     0.45
->  2000000      inf      inf      inf    14.99     0.99
->  3000000      inf      inf      inf    23.93     1.58
->  4000000      inf      inf      inf    34.97     2.25
->  5000000      inf      inf      inf    47.82     2.87
->  6000000      inf      inf      inf    55.14     3.56
->  7000000      inf      inf      inf    65.29     4.04
->  8000000      inf      inf      inf    73.33     4.78
->  9000000      inf      inf      inf    86.75     5.55
-> 10000000      inf      inf      inf    99.32     6.22
-> 11000000      inf      inf      inf   109.00     6.98
-> 12000000      inf      inf      inf   117.77     7.35
-> 13000000      inf      inf      inf   121.13     7.83
-> 14000000      inf      inf      inf   143.19     9.03
-> 15000000      inf      inf      inf   154.89     9.88
-> 16000000      inf      inf      inf   163.58    10.43
-> 17000000      inf      inf      inf   183.80    11.32
-> 18000000      inf      inf      inf   198.43    12.10
-> 19000000      inf      inf      inf   207.76    12.99
-> 20000000      inf      inf      inf   219.56    13.59
-
+```
+Time in seconds for 1 repetitions.
+--------------------------------------------------
+ amount   selecR   selec1   selec2   quickR   sorted
+ 1000000      inf      inf      inf     7.01     0.45
+ 2000000      inf      inf      inf    14.99     0.99
+ 3000000      inf      inf      inf    23.93     1.58
+ 4000000      inf      inf      inf    34.97     2.25
+ 5000000      inf      inf      inf    47.82     2.87
+ 6000000      inf      inf      inf    55.14     3.56
+ 7000000      inf      inf      inf    65.29     4.04
+ 8000000      inf      inf      inf    73.33     4.78
+ 9000000      inf      inf      inf    86.75     5.55
+10000000      inf      inf      inf    99.32     6.22
+11000000      inf      inf      inf   109.00     6.98
+12000000      inf      inf      inf   117.77     7.35
+13000000      inf      inf      inf   121.13     7.83
+14000000      inf      inf      inf   143.19     9.03
+15000000      inf      inf      inf   154.89     9.88
+16000000      inf      inf      inf   163.58    10.43
+17000000      inf      inf      inf   183.80    11.32
+18000000      inf      inf      inf   198.43    12.10
+19000000      inf      inf      inf   207.76    12.99
+20000000      inf      inf      inf   219.56    13.59
+```
 ## Some observations while sorting
 
 1. Only one core is working during sorting. This is expected as I did not "go into threads". Did sorted() worked the same way?
