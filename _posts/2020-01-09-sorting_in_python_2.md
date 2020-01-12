@@ -5,7 +5,7 @@ date: 2020-01-05
 tags: [Python, sorting, quick sort, selection sort, algorithms, recursion]
 ---
 
-This is a follow up of the [first part](./sorting_in_python/). It's time to have some fun.
+This is a follow up of the [first part](../sorting_in_python/). It's time to have some fun.
 
 Let's do some tests in regards to the time that sorting takes for sorting n elements. From the results, I will try to confirm Big O times for a specific sorting.
 
