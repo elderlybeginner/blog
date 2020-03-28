@@ -5,11 +5,12 @@ date: 2020-03-28
 tags: [Python, complex numbers, grid, matrix]
 ---
 
-This is about game grids. This post is inspired by some problems I experienced when solving puzzles on [CodinGame](www.codingame.com).
+This is about game grids. This post is inspired by some problems I experienced when solving puzzles on [CodinGame](http://www.codingame.com).
 
 Fighting with data that needs to modified or read made me looking for a better solution than storing grids as a list of lists.
 
 The whole issue was inspired by simple question: how to simply adding two positions with X, Y coordinates.
+
 	a = [3, 4]
 	b = [4, 5]
 
@@ -39,9 +40,10 @@ print(grid_ls[3][6])
 
 It works, however:
  - access to the grid is by double indexing ([y][x]),
- - changes are cumbersome as you have to split strings with:
-	grid[y] = grid[y][0:a] + 'X' + grid[y][a:]
+ - changes are cumbersome as you have to split strings with:  
+	grid[y] = grid[y][0:a] + 'X' + grid[y][a:]  
  - some relative movement is cumbersome. Just imagine that your are on position [x, y] and you would like to modify or read position in direction + a, + b (direction = [a, b]):
+
 	cell = grid[position[0] + direction[0]][position[1] + direction[1]]
 
 ## List of lists
