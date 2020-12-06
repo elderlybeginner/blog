@@ -5,7 +5,7 @@ date: 2020-12-06
 tags: [Python, puzzle, code review]
 ---
 
-As my progress goes below my expectations I would like to ask you for code review.
+As my progress goes below my expectations I would like to ask you for the code review.
 
 ## Code review scope and procedure
 
@@ -19,12 +19,12 @@ First, (0) it should be set what is to be review. Is there any source (procedure
 6. Code performance
 
 How much am I wrong with that list?
-Then, I would appricate all comments and proposals in accordance to the list above.
+Then, I would apprieciate all comments and proposals in accordance with the list above.
 
 ## Eight queens puzzle
 
-There are 92 distinct solutions and 12 fundamental ones
-more in the subject: https://en.wikipedia.org/wiki/Eight_queens_puzzle\n
+There are 92 distinct solutions and 12 fundamental ones. More in the subject on [Eight queens puzzle](https://en.wikipedia.org/wiki/Eight_queens_puzzle)
+
 The program generates all 92 distinctive solutions
 
 ## Code
